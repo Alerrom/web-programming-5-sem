@@ -4,24 +4,29 @@
         <title>Alerrom</title>
         <meta charset="UTF-8"/>
         <meta name="keywords" content="cv, portfolio, chat, alerrom">
+        <link rel="stylesheet" href="css/a.css">
+        <link rel="stylesheet" href="css/ascii_logo.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/img.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/text.css">
     </head>
     
-    <body background="img/background/v_1.gif">
+    <body>
         <header>
             <h1>Привет! Это Alerrom:)</h1>
             <nav>
-                [<a href="work_exp.html">Опыт работы</a>]
-                [<a target="_blank" href="files/Ершов Александр Романович.pdf">Резюме</a>]
+                <ul class="menu">
+                    <li><a class="menu_item" href="index.html">Главная</a></li>
+                    <li><a class="active menu_item" href="#home">Об авторе</a></li>
+                    <li><a class="menu_item" href="work_exp.html">Пример резюме</a></li>
+                </ul>
             </nav>
         </header>
 
         <main>
             <section>
-                <p>
-                    Этот сайт создан для знакомства потенциального работадателя 
-                    с начинающим <b>продуктовым аналитиком</b>.
-                </p>
-                <p>
+                <p class="text">
                     Здесь вы найдете мои 
                     <ins>контакты</ins>, 
                     <ins>резюме</ins>, 
@@ -31,14 +36,14 @@
 
             <section>
                 <h2>О себе</h2>
-                <p>
+                <p class="text">
                     Студент 3 курса ИТМО, 19 лет. Учусь на ИСе (программирование и интернет технологии).
                     Интересуюсь анализом данных, машинным обучением и математикой.
                 </p>
-                <p>
+                <p class="text">
                     Мой девиз: <i>never give up! After all, tomorrow is another day</i>.
                 </p>
-                <p>
+                <p class="text">
                     Моя формула успеха: 
                     (x-x<sub>0</sub>)<sup>2</sup>+
                     (y-y<sub>0</sub>)<sup>2</sup>+
@@ -70,15 +75,20 @@
                     <li>И швец, и жнец, и на дуде игрец</li>
                 </ul>
             </section>
+
+            <section>
+                <img class="img" src="img/achivements/diplom_1.jpg" alt="Диплом 1">
+                <img class="img" src="img/achivements/diplom_2.jpg" alt="Диплом 2">
+            </section>
         </main>
 
         <footer>
             <h2>Контактная информация</h2>
             <ul>
-                <li>e-mail: <a target="_blank" href="mailto:alex2002andr@mail.ru">alex2002andr@mail.ru</a></li>
-                <li>tg: <a target="_blank" href="http://t.me/alerrom">alerrom</a></li>
+                <li>e-mail: <a class="contacts" target="_blank" href="mailto:alex2002andr@mail.ru">alex2002andr@mail.ru</a></li>
+                <li>tg: <a class="contacts" target="_blank" href="http://t.me/alerrom">alerrom</a></li>
             </ul>
-            <pre>
+            <pre class="ascii_logo">
     ___    __    ______ ____   ____  _____  __    __
    /   |  / /   / ____// __ \ / __ \/ ___ \/  \  /  \
   / /| | / /   / /___ / /_/ // /_/ / /  / / /\ \/ /\ \

@@ -1,0 +1,7 @@
+.ascii_logo {
+    font-size: 16px;
+    font-family:monospace;
+    border: 1px solid #2A807A;
+    border-radius: 12px;
+    background-color: #43CCC3;
+}

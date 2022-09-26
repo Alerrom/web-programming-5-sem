@@ -1,0 +1,31 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #2A807A;
+    border-radius: 12px;
+    background-color: #43CCC3;
+}
+
+.menu_item {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active {
+    color: white;
+    background-color: #3EACC2;
+}
+
+li a:hover:not(.active).menu_item {
+    background-color: #99E7F7;
+}
+
+li a:hover:not(.active).contacts {
+    border: 1px solid #2A807A;
+    background-color: #99E7F7;
+}

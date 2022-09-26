@@ -1,0 +1,62 @@
+* {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+h1, h2, h3 {
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 1px 2px #43CCC3;
+}
+
+.text {
+    margin: 10px;
+    padding: 5px;
+    width: fit-content;
+
+    text-align: justify;
+    vertical-align: baseline;
+    font-weight: 200;
+}
+
+.text__landing {
+    font-style: italic;
+    background-color: aquamarine;
+}
+
+.text__landing.var_1 {
+    text-align: right;
+    vertical-align: baseline;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.text__landing.var_2 {
+    font-style: normal;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-indent: 150px;
+    letter-spacing: -2px;
+}
+
+.text__landing.var_3 {
+    text-align: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    vertical-align: bottom;
+    letter-spacing: 50px;
+}
+
+.text__landing.var_4 {
+    text-decoration: line-through;
+    font-style: unset;
+    text-align: justify;
+    vertical-align: sub;
+    text-transform: uppercase;
+}

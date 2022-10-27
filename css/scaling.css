@@ -1,0 +1,126 @@
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 18px;
+    }
+
+    .ascii_logo {
+        display: none;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .img_diploma {
+        display: none;
+    }
+
+    table {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 18px;
+    }
+
+    .ascii_logo {
+        font-size: 14px;
+    }
+
+    .img {
+        width: 100px;
+        height: 180px;
+    }
+
+    .img_diploma {
+        width: 280px;
+        height: 200px;
+    }
+
+    table {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1080px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 22px;
+    }
+
+    .ascii_logo {
+        font-size: 18px;
+    }
+
+    .img {
+        width: 180px;
+        height: 260px;
+    }
+
+    .img_diploma {
+        width: 320px;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 2000px) {
+    body {
+        font-size: 22px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 24px;
+    }
+
+    .ascii_logo {
+        font-size: 20px;
+    }
+
+    .img {
+        width: 240px;
+        height: 320px;
+    }
+
+    .img_diploma {
+        width: 340px;
+        height: 260px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 26px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 28px;
+    }
+
+    .ascii_logo {
+        font-size: 24px;
+    }
+
+    .img {
+        width: 280px;
+        height: 360px;
+    }
+
+    .img_diploma {
+        width: 380px;
+        height: 300px;
+    }
+}

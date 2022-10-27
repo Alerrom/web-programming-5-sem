@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+th {
+    padding: 10px 15px;
+}
+
+td {
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+tr:hover td {
+    background: rgb(114, 220, 224);
+}
+
+tr:nth-child(2n) {
+    background: rgba(114, 220, 224, 0.4);
+}

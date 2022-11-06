@@ -11,7 +11,7 @@
         display: none;
     }
 
-    .img {
+    .img_book {
         display: none;
     }
 
@@ -38,7 +38,7 @@
         font-size: 14px;
     }
 
-    .img {
+    .img_book {
         width: 100px;
         height: 180px;
     }
@@ -66,7 +66,7 @@
         font-size: 18px;
     }
 
-    .img {
+    .img_book {
         width: 180px;
         height: 260px;
     }
@@ -90,7 +90,7 @@
         font-size: 20px;
     }
 
-    .img {
+    .img_book {
         width: 240px;
         height: 320px;
     }
@@ -114,7 +114,7 @@
         font-size: 24px;
     }
 
-    .img {
+    .img_book {
         width: 280px;
         height: 360px;
     }

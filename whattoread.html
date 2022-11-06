@@ -4,7 +4,11 @@
         <title>Alerrom</title>
         <meta charset="UTF-8"/>
         <meta name="keywords" content="cv, portfolio, chat, alerrom">
-        <link rel="stylesheet" href="css/a.css">
+        <meta name='viewport' content='width=device-width,initial-scale=1'/>
+        <meta content='true' name='HandheldFriendly'/>
+        <meta content='width' name='MobileOptimized'/>
+        <meta content='yes' name='apple-mobile-web-app-capable'/>
+
         <link rel="stylesheet" href="css/ascii_logo.css">
         <link rel="stylesheet" href="css/body.css">
         <link rel="stylesheet" href="css/img.css">
@@ -34,12 +38,12 @@
         <main>
             <section>
                 <h2>Что почитать новичку?</h2>
-                <div class="grid-container">
-                    <img class="post-1 img" src="img/books/Kormen.jpeg" alt="Алгоритмы (Кормен)">
-                    <img class="post-2 img" src="img/books/StatisticsAndCats.jpg" alt="Статистика и котики">
-                    <img class="post-3 img" src="img/books/DeepLearning.jpeg" alt="Глубокое обучение">
-                    <img class="post-4 img" src="img/books/BasicPython.jpeg" alt="Основы Python">
-                    <img class="post-5 img" src="img/books/MachineLearning.jpeg" alt="Машинное обучение">
+                <div class="flex-container-img">
+                    <img class="img_book" src="img/books/Kormen.jpeg" alt="Алгоритмы (Кормен)">
+                    <img class="img_book" src="img/books/StatisticsAndCats.jpg" alt="Статистика и котики">
+                    <img class="img_book" src="img/books/DeepLearning.jpeg" alt="Глубокое обучение">
+                    <img class="img_book" src="img/books/BasicPython.jpeg" alt="Основы Python">
+                    <img class="img_book" src="img/books/MachineLearning.jpeg" alt="Машинное обучение">
                 </div>
             </section>
 
@@ -47,22 +51,21 @@
             <br>
 
             <section>
-                <table>
-                    <caption>Сколько это стоит?</caption>
-                    <tr>
-                        <th>Книга</th>
-                        <th>Буквоед</th>
-                        <th>Литрес</th>
-                        <th>Озон</th>
-                        <th>Яндекс</th>
-                        <th>Дирижабль</th>
-                    </tr>
-                    <tr><td>Алгоритмы (Кормен)</td><td>-</td><td>-</td><td>11780</td><td>6458</td><td>-</td></tr>
-                    <tr><td>Статистика и котики</td><td>618</td><td>429</td><td>608</td><td>590</td><td>534</td></tr>
-                    <tr><td>Глубокое обучение</td><td>1533</td><td>550</td><td>1533</td><td>1533</td><td>1142</td></tr>
-                    <tr><td>Основы Python</td><td>1396</td><td>449</td><td>1396</td><td>1221</td><td>1412</td></tr>
-                    <tr><td>Python для сложных задач</td><td>1959</td><td>-</td><td>1959</td><td>1959</td><td>1459</td></tr>
-                </table>
+                <div class="grid-container-table">
+                    <div class="header">Книга</div>
+                    <div class="header">Буквоед</div>
+                    <div class="header">Литрес</div>
+                    <div class="header">Озон</div>
+                    <div class="header">Яндекс</div>
+                    <div class="header">Дирижабль</div>
+
+                    <div class="lighted_elem">Алгоритмы (Кормен)</div><div class="lighted_elem">-</div><div class="lighted_elem">-</div><div class="lighted_elem">11780</div><div class="lighted_elem">6458</div><div class="lighted_elem">-</div>
+                    <div>Статистика и котики</div><div>618</div><div>429</div><div>608</div><div>590</div><div>534</div>
+                    <div class="lighted_elem">Глубокое обучение</div><div class="lighted_elem">1533</div><div class="lighted_elem">550</div><div class="lighted_elem">1533</div><div class="lighted_elem">1533</div><div class="lighted_elem">1142</div>
+                    <div>Основы Python</div><div>1396</div><div>449</div><div>1396</div><div>1221</div><div>1412</div>
+                    <div class="lighted_elem">Python для сложных задач</div><div class="lighted_elem">1959</div><div class="lighted_elem">-</div><div class="lighted_elem">1959</div><div class="lighted_elem">1959</div><div class="lighted_elem">1459</div>
+                </div>
+                <div class="caption">Сколько это стоит?</div>
             </section>
         </main>
 

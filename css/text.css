@@ -1,18 +1,20 @@
 body {
-    font-size: 20px;
     font-family: 'Bitter', serif;
     font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: cursive;
-    font-size: 25px;
 }
 
 h1, h2, h3 {
     margin: 5px;
     padding: 5px;
     text-shadow: 1px 2px #43CCC3;
+}
+
+a {
+    text-decoration: none;
 }
 
 .text {

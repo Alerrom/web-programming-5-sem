@@ -1,9 +1,14 @@
-.img {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
-    height: 150px;
+.flex-container-img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
-    filter: drop-shadow(2px 3px #43CCC3);
+.img_book {
+  justify-content: start;
+  filter: drop-shadow(2px 3px #43CCC3);
+}
+
+.img_diploma {
+  filter: drop-shadow(2px 3px #43CCC3);
 }

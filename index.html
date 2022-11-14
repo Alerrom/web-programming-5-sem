@@ -19,18 +19,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="javascript/pageLoading.js"></script>
+        <script src="javascript/menuNavigation.js"></script>
+        <script src="javascript/config.js"></script>
+
     </head>
 
     <body>
         <header>
             <h1>Добро пожаловать!</h1>
-            <nav class="menu">
-                <ul class="menu_list">
-                    <li><a class="active menu_item" href="#home">Главная</a></li>
-                    <li><a class="menu_item" href="alerrom.html">Об авторе</a></li>
-                    <li><a class="menu_item" href="work_exp.html">Пример резюме</a></li>
-                    <li><a class="menu_item" href="whattoread.html">Что почитать?</a></li>
-                </ul>
+            <nav>
+                <div class="menu_list" id="menu_list_id">
+                    <a class="active" href="#home">Главная</a>
+                    <a href="alerrom.html">Об авторе</a>
+                    <a href="work_exp.html">Пример резюме</a>
+                    <a href="whattoread.html">Что почитать?</a>
+                    <a class="icon" href="javascript:void(0);" onclick="scaleMenu()"><i class="fa fa-bars"></i></a>
+                </div>
             </nav>
         </header>
 
@@ -57,6 +64,7 @@
         </main>
 
         <footer>
+            <div class="load_info" id="load_info_id">Время загрузки страницы: </div>
             <pre class="ascii_logo">
     ___    __    ______ ____   ____  _____  __    __
    /   |  / /   / ____// __ \ / __ \/ ___ \/  \  /  \

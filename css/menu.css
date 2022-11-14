@@ -1,32 +1,29 @@
-.menu {
+.menu_list {
     border: 1px solid #2A807A;
     border-radius: 12px;
     background-color: #43CCC3;
     overflow: hidden;
 }
 
-.menu_list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu_item {
+.menu_list a {
     float: left;
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
-    transition: 0.3s;
+}
+
+.menu_list a:hover {
+    background-color: #99E7F7;
 }
 
 .active {
     color: white;
     background-color: #3EACC2;
 }
-
-li a:hover:not(.active).menu_item {
-    background-color: #99E7F7;
+  
+.menu_list .icon {
+    display: none;
 }
 
 li a:hover:not(.active).contacts {

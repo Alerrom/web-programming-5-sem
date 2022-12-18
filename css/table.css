@@ -16,3 +16,35 @@
     text-align: right;
     font-family: cursive;
 }
+
+table {
+    width: fit-content;
+    caption-side: top;
+    border: 4px solid #2A807A;
+    border-radius: 12px;
+    flex: 1;
+    display: grid;
+    overflow: hidden;
+}
+
+thead,
+tbody,
+tr {
+    display: contents;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    border-right: 1px solid #2A807A;
+    border-left: 1px solid #2A807A;
+}
+
+tr:nth-child(2n) td {
+    background: rgba(114, 220, 224, 0.4);
+}

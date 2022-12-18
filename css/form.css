@@ -1,0 +1,12 @@
+input {
+    font-family: cursive;
+    font-size: 16px;
+
+    border: 1px solid #2A807A;
+    border-radius: 3px;
+    background-color: #43CCC3;
+}
+
+input:hover {
+    background-color: #99E7F7;
+}

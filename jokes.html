@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="css/text.css">
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/scaling.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/loading.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
@@ -24,6 +26,7 @@
         <script src="javascript/pageLoading.js"></script>
         <script src="javascript/menuNavigation.js"></script>
         <script src="javascript/config.js"></script>
+        <script src="javascript/loadJokes.js"></script>
 
     </head>
 
@@ -32,36 +35,26 @@
             <h1>Добро пожаловать!</h1>
             <nav>
                 <div class="menu_list" id="menu_list_id">
-                    <a href="#home">Главная</a>
+                    <a href="index.html">Главная</a>
                     <a href="alerrom.html">Об авторе</a>
                     <a href="work_exp.html">Пример резюме</a>
                     <a href="whattoread.html">Что почитать?</a>
-                    <a href="jokes.html">Подборка анекдотов</a>
+                    <a href="#home">Подборка анекдотов</a>
                     <a class="icon" href="javascript:void(0);" onclick="scaleMenu()"><i class="fa fa-bars"></i></a>
                 </div>
             </nav>
         </header>
 
         <main>
-            <section>
-                <h2>Описание</h2>
-                <p class="text">
-                    Это сайт-агрегатор резюме. Ты вводишь свои достижения, мы оформляем это единым документом.
-                    Ты сможешь анализировать востребованные навыки в сравнении с другими пользователями.
-                    Этот сайт поможет тебе собрать весь опыт работы воедино, чтобы сделать идеальное резюме!
-                </p>
-            </section>
-            <section>
-                <h2>Ниже текст, который форматирован разными стилями</h2>
-                <p class="text__landing">
-                    Рома Макаревич сказал, что это нужно для того, чтобы я мог продемонстрировать навыки работы с текстом в css.
-                </p>
+            <br>
+            <button id="load_cat_image_btn">Поднять настроение</button>
+            <br>
 
-                <p class="text__landing var_1">я могу вот так вау</p>
-                <p class="text__landing var_2">вот так вау</p>
-                <p class="text__landing var_3">вот так вау</p>
-                <p class="text__landing var_4">вот так могу!</p>
-            </section>
+            <div id="loading"></div>
+
+            <div id="cat_image" class="flex-container-img">
+                <img id="cat_image_ex" src="img/default.png">
+            </div>
         </main>
 
         <footer>
